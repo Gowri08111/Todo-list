@@ -1,0 +1,59 @@
+body {
+    background-image: url("img/bgg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div {
+    color: palevioletred;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    margin-right: 80px;
+    margin-left: 450px;
+    margin-top: 60px;
+    color: black;
+    border: 10px solid gray;
+    padding: 20px;
+}
+
+#style {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    font-size: medium;
+}
+
+#name,
+#rollno,
+#email {
+    width: 200px;
+}
+
+#su,
+#re {
+    padding: 5pxpx;
+    text-align: center;
+    font-size: 15px;
+    color: brown;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#content {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content tr {
+    text-align: left;
+    font-weight: bold;
+    border: 6px solid #dddddd;
+}
+
+#content th,
+#content td {
+    padding: 12px 15px;
+}

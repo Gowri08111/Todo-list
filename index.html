@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TO DO LIST</title>
+    <link type="text/css" rel="stylesheet" href="todo.css">
+    <script src="tod.js"></script>
+</head>
+
+<body>
+
+    <div id="main">
+        <form method="POST" id="main1">
+            <label for="name"><i id="style">Name:</i> </label>
+            <input type="text" id="name" autofocus>
+
+            <br>
+            <br>
+
+            <label for="rollno"><i id="style">Roll NO:</i></label>
+            <input type="text,number" id="rollno">
+
+            <br>
+            <br>
+
+
+            <label for="email"><i id="style">E-Mail: </i></label>
+            <input type="email" id="email">
+
+            <br>
+            <br>
+
+            <button onclick="return sub(event)" id="su">Add</button>
+            <button onclick="return remove(event)" id="re">Delete</button>
+
+        </form>
+    </div>
+
+    <div id="table">
+        <table id="content">
+            <caption><i id="style">Student details</i></caption>
+            <tr>
+                <th> S.no </th>
+                <th> Name </th>
+                <th> Roll.NO</th>
+                <th> E-mail </th>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
